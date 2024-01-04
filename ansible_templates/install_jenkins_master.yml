@@ -50,7 +50,7 @@
         state: absent
         path: /var/lib/jenkins
 
-    - name: Copy over cloned Jenkins /var/lib/jenkinyess
+    - name: Copy over cloned Jenkins /var/lib/jenkins
       copy:
         remote_src: yes
         src: /tmp/jenkins/jenkins
