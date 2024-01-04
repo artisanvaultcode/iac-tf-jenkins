@@ -18,6 +18,7 @@
       until: result.rc == 0
 ```
 -----> **the directory /var/log/jenkins and the file jenkins.log does not exist**
+to overcome this problem just ssh to the ec2 and create the directory and file with the entry 'Jenkins is fully up and running'
 
 -- worker can be created because of this error:
 
